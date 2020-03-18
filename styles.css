@@ -1,0 +1,126 @@
+@font-face{
+    font-family: "Proxima";
+    font-style: normal;
+    font-weight: 400;
+    src: url("Proxima Nova Regular.otf") format("otf");
+}
+@font-face{
+    font-family: "Futura";
+    font-style: bold;
+    font-weight: 400;
+    src: url("futura-pt-heavy.otf") format("otf"),
+         url("FuturaPT-Heavy.woff2") format("woff2");
+}
+
+
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+a {
+    text-decoration: underline;
+    outline: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.wrapper{
+    background-color: #464f54;
+    padding: 150px 70px 0 70px;
+}
+.mainer{
+    background-color: #ffffff;
+    padding-left: 124px;
+    padding-right: 124px;
+    max-width: 1060px;
+}
+.title{
+    background-color: #181818;
+}
+.icons{
+    background-color: #f5bb2c;
+    padding: 40px 22px;
+    width: 810px;
+   position: relative;
+   left: 350px;
+   bottom: 200px;
+}
+img{
+    margin:0 22px;
+}
+
+
+
+
+.title{
+    padding: 50px 64px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.t{
+    color: #767676;
+    font-size: 15px;
+    font-family: "Proxima";
+}
+.l{
+    color: #fefefe;
+    font-size: 48px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    font-family: 'Playfair Display', serif;
+}
+.name{
+    color: #b4b4b4;
+    font-size: 20px;
+    margin-top: -160px;
+    font-family: "Proxima";
+}
+h1{
+    color: #2a2a2a;
+    font-size: 78px;
+    padding-top: 45px;
+    font-family: "Fututra";
+    
+}
+h2{
+    color: #8f8f8f;
+    font-size: 30px;
+    padding-top: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+p{
+    color: #000000;
+    font-size: 27px;
+    padding-top: 62px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
